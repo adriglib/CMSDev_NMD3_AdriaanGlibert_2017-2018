@@ -1,0 +1,35 @@
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:400,600': { type: external, minified: true }
+
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      ../../../themes/artebike/includes/bootstrap/css/bootstrap.css: {}
+      ../../../themes/artebike/assets/css/main.css: {}
+      ../../../themes/artebike/includes/aos/css/aos.css: {}
+  js:
+    ../../../themes/artebike/includes/popper/js/popper.min.js: {}
+    ../../../themes/artebike/includes/bootstrap/js/bootstrap.min.js: {}
+    ../../../themes/artebike/includes/aos/js/aos.js: {}
+    ../../../themes/artebike/includes/aos/js/init-aos.js: {}
+    ../../../themes/artebike/assets/js/main.js: {}
+    ../../../themes/artebike/assets/js/menu.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupalSettings
+    - core/jquery.once
+
+map:
+  version: VERSION
+  css:
+    theme:
+      ../../../themes/artebike/includes/leaflet/css/leaflet.css: {}
+  js:
+    ../../../themes/artebike/includes/axios/js/axios.js: {}
+    ../../../themes/artebike/includes/leaflet/js/leaflet.js: {}
+    ../../../themes/artebike/assets/js/map.js: {}
